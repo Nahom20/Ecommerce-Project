@@ -21,7 +21,7 @@ public class InventoryController {
     }
 
     @GetMapping
-    public ResponseEntity<List<InventoryResponse>> isInStock(@RequestParam("skuCodes") List<String> skuCodes){
+    public ResponseEntity<List<InventoryResponse>> isInStock(@RequestParam("skuCodes") List<String> skuCodes) throws InterruptedException {
         List<InventoryResponse> inventoryResponses = inventoryService.isInStock(skuCodes);
         return new ResponseEntity<>(inventoryResponses, HttpStatus.ACCEPTED);
     }
