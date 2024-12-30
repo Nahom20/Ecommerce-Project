@@ -1,0 +1,8 @@
+com\programmingteche\product_service\ProductServiceApplication.class
+com\programmingteche\product_service\Model\Product.class
+com\programmingteche\product_service\Dto\ProductResponse.class
+com\programmingteche\product_service\Repository\ProductRepository.class
+com\programmingteche\product_service\Controller\ProductController.class
+com\programmingteche\product_service\Service\ProductService.class
+com\programmingteche\product_service\Dto\ProductRequest.class
+com\programmingteche\product_service\Dto\ProductResponse$ProductResponseBuilder.class
